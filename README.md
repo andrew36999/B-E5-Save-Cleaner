@@ -86,3 +86,5 @@ All other save data and game progress is preserved exactly as-is.
 ## Disclaimer
 
 This tool modifies game save files. While it creates backups, use at your own risk. The authors are not responsible for any data loss or game issues.
+
+![Alt text](img/theresyourproblem.jpg)
