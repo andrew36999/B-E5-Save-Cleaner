@@ -1,5 +1,13 @@
 # Save Cleaner
 
+[![License](https://img.shields.io/github/license/andrew36999/B-E5-Save-Cleaner?style=flat-square)](LICENSE)
+[![Python](https://img.shields.io/badge/python-3.7+-blue?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
+[![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20Linux%20%7C%20macOS-lightgrey?style=flat-square)]()
+[![GitHub Release](https://img.shields.io/github/v/release/andrew36999/B-E5-Save-Cleaner?style=flat-square&include_prereleases)](../../releases)
+[![GitHub last commit](https://img.shields.io/github/last-commit/andrew36999/B-E5-Save-Cleaner?style=flat-square)](../../commits)
+[![Repo Size](https://img.shields.io/github/repo-size/andrew36999/B-E5-Save-Cleaner?style=flat-square)]()
+
+
 Tired of the CHEATER label in your playthrough? Me too. So I spent 8 hours of my time figuring out what variables make the CHEATER label stick.
 
 It turns out the two variables are `WasDC` in the first few lines of a zlib compressed save in either of the streams (they shift) and the number in the `Console_end` variable. The number can range from 3000 to 6000 to 30000, it doesn't seem to matter, only specific numbers hit so there is no > or <, there are specific numbers which trigger the CHEATER label and make it more complex then simply deleting the WasDC line.
